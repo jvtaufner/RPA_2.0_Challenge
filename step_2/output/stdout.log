@@ -1,0 +1,29 @@
+Message: unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=120.0.6099.224)
+Stacktrace:
+#0 0x55f07b5caf83 <unknown>
+#1 0x55f07b283b2b <unknown>
+#2 0x55f07b2693a3 <unknown>
+#3 0x55f07b2677e1 <unknown>
+#4 0x55f07b26818a <unknown>
+#5 0x55f07b2796fe <unknown>
+#6 0x55f07b2917c1 <unknown>
+#7 0x55f07b2976bb <unknown>
+#8 0x55f07b26892d <unknown>
+#9 0x55f07b291459 <unknown>
+#10 0x55f07b31c204 <unknown>
+#11 0x55f07b2fce53 <unknown>
+#12 0x55f07b2c4dd4 <unknown>
+#13 0x55f07b2c61de <unknown>
+#14 0x55f07b58f531 <unknown>
+#15 0x55f07b593455 <unknown>
+#16 0x55f07b57bf55 <unknown>
+#17 0x55f07b5940ef <unknown>
+#18 0x55f07b55f99f <unknown>
+#19 0x55f07b5b8008 <unknown>
+#20 0x55f07b5b81d7 <unknown>
+#21 0x55f07b5ca124 <unknown>
+#22 0x7f7c31b11609 start_thread
+
+No browser is open.

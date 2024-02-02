@@ -1,0 +1,29 @@
+2024-01-29 18:39:17,457 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+Traceback (most recent call last):
+  File "/home/the_functionary/step_2/tasks2.py", line 65, in <module>
+    input_data = robot.work_items_outputs()
+  File "/home/the_functionary/step_2/tasks2.py", line 50, in work_items_outputs
+    url = self.using_input_work_itens()
+  File "/home/the_functionary/step_2/tasks2.py", line 38, in using_input_work_itens
+    browser_lib.wait_until_element_is_visible("css:#main > div > div.layout.layout--sidebar > div > div.layout__item.layout__item--sidebar.d-none.d-block-lg > div > div > nav > ul:nth-child(5)")
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/keywords/waiting.py", line 314, in wait_until_element_is_visible
+    self._wait_until(
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/keywords/waiting.py", line 426, in _wait_until
+    self._wait_until_worker(condition, timeout, error)
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/keywords/waiting.py", line 433, in _wait_until_worker
+    if condition():
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/keywords/waiting.py", line 315, in <lambda>
+    lambda: self.is_visible(locator),
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/base/context.py", line 111, in is_visible
+    element = self.find_element(locator, required=False)
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/base/context.py", line 82, in find_element
+    return self.element_finder.find(locator, tag, True, required, parent)
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/locators/elementfinder.py", line 93, in find
+    return self._find(locators[-1], tag, first_only, required, element)
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/locators/elementfinder.py", line 123, in _find
+    elements = strategy(criteria, tag, constraints, parent=parent or self.driver)
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/base/context.py", line 34, in driver
+    return self.ctx.driver
+  File "/opt/robocorp/ht/720c7a8_b1f3c24_59f207d3/lib/python3.10/site-packages/SeleniumLibrary/__init__.py", line 592, in driver
+    raise NoOpenBrowser("No browser is open.")
+SeleniumLibrary.errors.NoOpenBrowser: No browser is open.

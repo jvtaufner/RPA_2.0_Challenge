@@ -1,0 +1,11 @@
+[
+  {
+      "payload": {
+          "news_list": "#search-results > div > div.search-results__stories",
+          "current_url": "https://nypost.com/search/Stock+market+update/?section=business",
+          "n_months": 1,
+          "search_phrase": "Stock market update"
+      },
+      "files": {}
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+      "payload": {
+          "sections": "Business",
+          "search_phrase": "Stock market update",
+          "n_months": 1
+      },
+      "files": {}
+  }
+]
